@@ -1,3 +1,23 @@
-body {
-    background-color: aquamarine;
+/* HEADER SECTION */
+#hero {
+    position: relative;
+    
+  }
+  
+  #welcomeWords {
+    position: absolute;
+    top: 50%;
+    /* transform: translate(-50%, -50%); */
+    text-align:left;
+    color: black;
+    font-size: 20px;
+    
+  }
+
+.img-fluid {
+    width: auto;
+    height:auto;
+    background-size: cover;
+    
 }
+
