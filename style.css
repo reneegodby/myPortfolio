@@ -1,4 +1,10 @@
 /* HEADER SECTION */
+
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
 #navbar {
   display: flex;
   justify-content: right;
@@ -26,4 +32,35 @@
   height: auto;
   background-size: cover;
   background-image: linear-gradient(to top, black, transparent);
+}
+
+#aboutMe{
+  border: 2px solid black;
+  height: 60vh;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  padding: 40px;
+}
+
+#myProjects{
+  border: 2px solid black;
+  height: 50vh;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  padding: 40px;
+
+}
+
+#contactMe {
+  border: 2px solid black;
+  height: 80vh;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  padding: 40px;
 }
