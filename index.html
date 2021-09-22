@@ -43,6 +43,7 @@
     </nav>
 
   </header>
+  <div class="backgroundGradient">
 
   <!-- End of Header Section -->
   <!-- Hero Section -->
@@ -62,7 +63,13 @@
   <!-- ABOUT ME SECTION -->
   <div id="aboutMe">
     <h2>About Me</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nulla odio aliquid corporis eum quidem iusto, earum nisi exercitationem expedita facere consequatur atque delectus esse, ab natus asperiores unde ullam! Deleniti quaerat porro praesentium eius eveniet neque reiciendis aliquam placeat qui repudiandae facere commodi, impedit repellendus ab totam unde dignissimos quod dolor! Veritatis esse nesciunt, vitae ipsam tempore quo cum quas, sint quia magnam architecto modi debitis officiis cumque facilis, perferendis distinctio quam quae sed corrupti ratione assumenda molestiae? Ducimus error odio aut corrupti velit. Tempore voluptatum excepturi, repellat magnam, laborum maxime sunt ipsum culpa fugiat, architecto incidunt doloribus veritatis.
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nulla odio aliquid corporis eum quidem iusto,
+      earum nisi exercitationem expedita facere consequatur atque delectus esse, ab natus asperiores unde ullam!
+      Deleniti quaerat porro praesentium eius eveniet neque reiciendis aliquam placeat qui repudiandae facere commodi,
+      impedit repellendus ab totam unde dignissimos quod dolor! Veritatis esse nesciunt, vitae ipsam tempore quo cum
+      quas, sint quia magnam architecto modi debitis officiis cumque facilis, perferendis distinctio quam quae sed
+      corrupti ratione assumenda molestiae? Ducimus error odio aut corrupti velit. Tempore voluptatum excepturi,
+      repellat magnam, laborum maxime sunt ipsum culpa fugiat, architecto incidunt doloribus veritatis.
     </p>
 
     <h2>Some of my Skills</h2>
@@ -76,13 +83,62 @@
   </div>
   <!-- PROJECTS SECTION -->
   <div id="myProjects">
-    <h2>My Projects</h2>
-    
+    <div>
+      <h2>My Projects</h2>
+    </div>
+    <div class="thumbnails">
+      <div class="box">
+        <div class="content">
+          <a href="https://reneegodby.github.io/APIOne/">
+          <img class="images" src="./assets/API 1 img.png" alt="">
+        </a>
+          <h3>Dog Picture API</h3>
+        
+        </div>
+      </div>
+      <div class="box">
+        <div class="content">
+          <a href="https://reneegodby.github.io/css_creature/">
+          <img class="images" src="./assets/CSS Creature img.png" alt="">
+        </a>
+          <h3>CSS Creature</h3>
+        
+        </div>
+      </div>
+      <div class="box">
+        <div class="content">
+          <a href="https://reneegodby.github.io/Static-Layout/">
+          <img class="images" src="./assets/static layout img.png" alt="">
+        </a>
+          <h3>Static Layout</h3>
+        
+        </div>
+      </div>
+      <div class="box">
+        <div class="content">
+          <img class="images" src="./assets/badges-webdev_red.png" alt="">
+          <h3>API #2</h3>
+        </div>
+      </div>
+      <div class="box">
+        <div class="content">
+          <img class="images" src="./assets/badges-webdev_blue.png" alt="">
+          <h3>Blue Badge Project</h3>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="content">
+          <img class="images" src="./assets/badges-webdev_red.png" alt="">
+          <h3>Red Badge Project</h3>
+        </div>
+      </div>
+    </div>
 
   </div>
   <!-- CONTACT SECTION -->
-  <div  id="contactMe">
-<h2>Contact Me</h2>
+  <div id="contactMe">
+    <h2>Contact Me</h2>
 
     <form>
       <div class="mb-3">
@@ -92,34 +148,46 @@
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Email address</label>
         <input type="email" class="form-control" id="1" aria-describedby="emailHelp">
-        
+
       </div>
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Subject</label>
         <input type="text" class="form-control" id="" aria-describedby="emailHelp">
-        
+
       </div>
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Message</label>
         <!-- <textarea id="text" name="text" rows="10" cols="50"></textarea> -->
         <input type="text" class="form-control" id="" aria-describedby="emailHelp">
-        
+
       </div>
-      
+
       <button type="submit" class="btn btn-primary">Send Message</button>
     </form>
   </div>
   <!-- FOOTER -->
   <footer>
     <nav class="navbar navbar-light bg-light" id="footer">
-      <div class="container-fluid">
-        <span class="navbar-text">
+      <div class="container-fluid" id="containerFooter">
+        <span class="navbar-text" id="footerText">
           &copy Renée Godby 2021
         </span>
+        <div class="icons">
+          <div class="iconLinkedIn">
+            <a href="www.linkedin.com/in/renee-godby">
+            <img src="./assets/smalllinkedinbw.png" alt="">
+          </a>
+          </div>
+          <div class="iconGitHub">
+            <a href="https://github.com/reneegodby">
+            <img src="./assets/githubbwsmall.png" alt="">
+          </a>
+          </div>
+        </div>
       </div>
     </nav>
   </footer>
-
+  <script src="./script.js"></script>
 </body>
 
 </html>
