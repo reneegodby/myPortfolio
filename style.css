@@ -4,12 +4,14 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
+  background-color: rgb(191, 191, 191, 0.4)
 }
 
 #navbar {
   /* background-color: #bfbfbf; */
-  background-color: rgb(242, 242, 242, 0.2)
+  /* background-color: rgb(242, 242, 242, 0.2) */
+  background-color: #404040;
   
 }
 
@@ -22,30 +24,35 @@ body {
   background-color: #f2f2f2;
 }
 
-/* .nav-link {
-  color: black;
+#nav0, #nav1, #nav2, #nav3 {
+  color: #bfbfbf;
   font-weight: bold;
-
 }
 
-.nav-link:hover {
-   
-} */
+#nav0:hover, #nav1:hover, #nav2:hover, #nav3:hover {
+  color: black;
+  font-weight: bold;
+}
+
 /* HERO SECTION */
 #hero {
   position: relative;
 }
 
-#welcomeWords {
-  position: absolute;
+#welcomeBox {
+ position: absolute;
   top: 20%;
   text-align: left;
-  color: black;
-  font-size: 2.5rem;
-  margin-left: 3vw;
-  background-color: rgba(200, 200, 200, 0.2);
+  margin-left: 3vw; 
+  background-color: rgba(200, 200, 200, 0.3);
   border-radius: 50px;
-  padding: 20px;
+  padding: 20px; 
+}
+
+#welcomeText {
+  color: black;  
+  font-size: 2.5rem;
+  
 }
 
 #background-img {
@@ -59,6 +66,12 @@ body {
   /* background-image: linear-gradient(to top, black, #404040, #8C8C8C, #BFBFBF, transparent); */
 
 /* ABOUT ME AND SKILLS SECTION */
+
+.secTitle {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
 
 #aboutMe {
   border: 2px solid #404040;
@@ -75,6 +88,31 @@ body {
   width: 200px;
   object-fit: contain;
 }
+
+.icons {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin: 10px;
+}
+
+.iconLinkedIn:hover {
+  /* box-shadow: 0 0 5px 5px #404040;
+  padding: 5px;
+  border-radius: 50px; */
+} 
+
+.iconGitHub:hover {
+  
+  /* box-shadow: 0 0 5px 5px #404040;
+  padding: 5px;
+  border-radius: 50px;  */
+}
+
+.iconLinkedIn {
+  margin-right: 20px;
+}
+
 
 /* MY PROJECTS SECTION */
 
@@ -108,11 +146,12 @@ body {
   object-fit: cover;
   border-radius: 20px;
   border: 2px solid #8c8c8c;
-  padding: 10px;
+  opacity: 0.5;
 }
 
 .images:hover {
-  box-shadow: 0 0 5px 5px #404040;
+  /* box-shadow: 0 0 5px 5px #404040; */
+  opacity: 100;
 }
 
 h3 {
@@ -132,6 +171,7 @@ h3 {
   padding: 40px;
 }
 
+
 #formButton {
   background-color: #404040;
 }
@@ -146,24 +186,3 @@ h3 {
   color: black;
 }
 
-.icons {
-  display: flex;
-  justify-content: center;
-  margin: 10px;
-}
-
-/* .iconLinkedIn:hover {
-  box-shadow: 0 0 5px 5px #404040;
-  padding: 10px;
-  border-radius: 50px;
-} */
-
-/* .iconGitHub:hover {
-  box-shadow: 0 0 5px 5px #404040;
-  /* padding: 10px;
-  border-radius: 50px; 
-} */
-
-.iconLinkedIn {
-  margin-right: 20px;
-}
