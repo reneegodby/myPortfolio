@@ -100,9 +100,16 @@ body {
   object-fit: contain;
   
 }
+
+#downloadIcon:hover {
+  box-shadow: 0 0 5px 5px #404040;
+  border-radius: 5px;
+}
+
 figcaption {
   text-align: center;
 }
+
 
 .break {
   height: 12px;
