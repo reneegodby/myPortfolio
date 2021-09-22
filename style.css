@@ -1,13 +1,16 @@
 /* HEADER SECTION */
 
-html, body{
+html,
+body {
   margin: 0;
   padding: 0;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 #navbar {
-  background-color: #BFBFBF ;
+  /* background-color: #bfbfbf; */
+  background-color: rgb(242, 242, 242, 0.2)
+  
 }
 
 #navbarNav {
@@ -16,11 +19,19 @@ html, body{
 }
 
 #navbar:hover {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
+/* .nav-link {
+  color: black;
+  font-weight: bold;
 
+}
 
+.nav-link:hover {
+   
+} */
+/* HERO SECTION */
 #hero {
   position: relative;
 }
@@ -32,7 +43,7 @@ html, body{
   color: black;
   font-size: 2.5rem;
   margin-left: 3vw;
-  /* background-color: rgba(200, 200, 200, 0.5); */
+  background-color: rgba(200, 200, 200, 0.2);
   border-radius: 50px;
   padding: 20px;
 }
@@ -44,11 +55,12 @@ html, body{
   /* background-image: linear-gradient(to top, black, transparent); */
 }
 
-.backgroundGradient {
+/* .backgroundGradient {
   /* background-image: linear-gradient(to top, black, #404040, #8C8C8C, #BFBFBF, transparent); */
-}
 
-#aboutMe{
+/* ABOUT ME AND SKILLS SECTION */
+
+#aboutMe {
   border: 2px solid #404040;
   height: auto;
   width: 80vw;
@@ -56,10 +68,17 @@ html, body{
   margin-top: 10vh;
   margin-bottom: 10vh;
   padding: 40px;
-  
 }
 
-#myProjects{
+#skillIcons {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+
+/* MY PROJECTS SECTION */
+
+#myProjects {
   border: 2px solid #404040;
   height: auto;
   width: 80vw;
@@ -67,14 +86,12 @@ html, body{
   margin-top: 10vh;
   margin-bottom: 10vh;
   padding: 40px;
-    
 }
 
-.thumbnails{
+.thumbnails {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
 }
 
 .box {
@@ -82,20 +99,17 @@ html, body{
   display: flex;
   flex-wrap: wrap;
   margin: 10px;
-  
 }
 
- .images  {
+.images {
   margin-top: 25px;
   height: 200px;
   width: 200px;
   object-fit: cover;
   border-radius: 20px;
-  border: 1px solid #ddd;
+  border: 2px solid #8c8c8c;
   padding: 10px;
-  
 }
-
 
 .images:hover {
   box-shadow: 0 0 5px 5px #404040;
@@ -105,6 +119,8 @@ h3 {
   text-align: center;
   font-size: 20px;
 }
+
+/* CONTACT FORM */
 
 #contactMe {
   border: 2px solid #404040;
@@ -116,33 +132,38 @@ h3 {
   padding: 40px;
 }
 
+#formButton {
+  background-color: #404040;
+}
+
+/* FOOTER SECTION */
+
 #containerFooter {
-  background-color: #BFBFBF;
-   
+  background-color: #bfbfbf;
 }
 
-
-#footerText{
+#footerText {
   color: black;
-  
-  }
+}
 
-.icons{
+.icons {
   display: flex;
-  justify-content: center;  
-  margin: 10px
-      
+  justify-content: center;
+  margin: 10px;
 }
 
-.iconLinkedIn:hover {
+/* .iconLinkedIn:hover {
   box-shadow: 0 0 5px 5px #404040;
-}
+  padding: 10px;
+  border-radius: 50px;
+} */
 
-.iconGitHub:hover {
+/* .iconGitHub:hover {
   box-shadow: 0 0 5px 5px #404040;
-}
+  /* padding: 10px;
+  border-radius: 50px; 
+} */
 
-.iconLinkedIn{
+.iconLinkedIn {
   margin-right: 20px;
 }
-
