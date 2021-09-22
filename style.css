@@ -5,14 +5,13 @@ body {
   margin: 0;
   padding: 0;
   /* background-color: #f2f2f2; */
-  background-color: rgb(191, 191, 191, 0.4)
+  background-color: rgb(191, 191, 191, 0.4);
 }
 
 #navbar {
   /* background-color: #bfbfbf; */
   /* background-color: rgb(242, 242, 242, 0.2) */
   background-color: #404040;
-  
 }
 
 #navbarNav {
@@ -24,12 +23,18 @@ body {
   background-color: #f2f2f2;
 }
 
-#nav0, #nav1, #nav2, #nav3 {
+#nav0,
+#nav1,
+#nav2,
+#nav3 {
   color: #bfbfbf;
   font-weight: bold;
 }
 
-#nav0:hover, #nav1:hover, #nav2:hover, #nav3:hover {
+#nav0:hover,
+#nav1:hover,
+#nav2:hover,
+#nav3:hover {
   color: black;
   font-weight: bold;
 }
@@ -40,19 +45,18 @@ body {
 }
 
 #welcomeBox {
- position: absolute;
+  position: absolute;
   top: 20%;
   text-align: left;
-  margin-left: 3vw; 
+  margin-left: 3vw;
   background-color: rgba(200, 200, 200, 0.3);
   border-radius: 50px;
-  padding: 20px; 
+  padding: 20px;
 }
 
 #welcomeText {
-  color: black;  
+  color: black;
   font-size: 2.5rem;
-  
 }
 
 #background-img {
@@ -74,7 +78,7 @@ body {
 }
 
 #aboutMe {
-  border: 2px solid #404040;
+  /* border: 2px solid #404040; */
   height: auto;
   width: 80vw;
   margin-left: 10vw;
@@ -83,12 +87,29 @@ body {
   padding: 40px;
 }
 
+#mySkills {
+  height: auto;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  padding: 40px;
+  
+}
+
+#mySkillIcons{
+  display: flex;
+  justify-content: center;
+}
+
 #skillIcons {
   height: 200px;
   width: 200px;
   object-fit: contain;
+  
 }
 
+/* Github and linked in icons */
 .icons {
   display: flex;
   justify-content: center;
@@ -97,27 +118,23 @@ body {
 }
 
 .iconLinkedIn:hover {
-  /* box-shadow: 0 0 5px 5px #404040;
-  padding: 5px;
-  border-radius: 50px; */
-} 
+  box-shadow: 0 0 5px 5px #404040;
+  border-radius: 3px;
+}
 
 .iconGitHub:hover {
-  
-  /* box-shadow: 0 0 5px 5px #404040;
-  padding: 5px;
-  border-radius: 50px;  */
+  box-shadow: 0 0 5px 5px #404040;
+  border-radius: 10px;
 }
 
 .iconLinkedIn {
   margin-right: 20px;
 }
 
-
 /* MY PROJECTS SECTION */
 
 #myProjects {
-  border: 2px solid #404040;
+  /* border: 2px solid #404040; */
   height: auto;
   width: 80vw;
   margin-left: 10vw;
@@ -162,7 +179,7 @@ h3 {
 /* CONTACT FORM */
 
 #contactMe {
-  border: 2px solid #404040;
+  /* border: 2px solid #404040; */
   height: auto;
   width: 80vw;
   margin-left: 10vw;
@@ -170,7 +187,6 @@ h3 {
   margin-bottom: 10vh;
   padding: 40px;
 }
-
 
 #formButton {
   background-color: #404040;
@@ -180,9 +196,20 @@ h3 {
 
 #containerFooter {
   background-color: #bfbfbf;
+  text-align: center;
 }
 
 #footerText {
   color: black;
+  text-align: center;
 }
 
+#footer {
+  text-align: center;
+}
+.navbar-text {
+  text-align: center;
+}
+.container-fluid {
+  text-align: center;
+}
