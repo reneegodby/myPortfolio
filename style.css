@@ -4,15 +4,12 @@ html,
 body {
   margin: 0;
   padding: 0;
-  /* background-color: #f2f2f2; */
   background-color: rgb(191, 191, 191, 0.3);
 }
 
 #navbar {
-  /* background-color: #bfbfbf; */
-  /* background-color: rgb(242, 242, 242, 0.2) */
-  background-color: #404040;
-  /* position: fixed; */
+  background-color: #bfbfbf;
+  
 }
 
 #navbarNavAltMarkup {
@@ -20,16 +17,13 @@ body {
   justify-content: right;
   
 }
-/* 
-#navbar:hover {
-  background-color: #f2f2f2;
-} */
 
 #nav0,
 #nav1,
 #nav2,
 #nav3 {
-  color: #bfbfbf;
+  color: black;
+  font-family: 'Quicksand', sans-serif;
   font-weight: bold;
 }
 
@@ -37,8 +31,8 @@ body {
 #nav1:hover,
 #nav2:hover,
 #nav3:hover {
-  color: black;
-  font-weight: bold;
+  box-shadow: 3px 3px #404040;
+  
 }
 
 /* HERO SECTION */
@@ -59,6 +53,8 @@ body {
 #welcomeText {
   color: black;
   font-size: 3vw;
+  font-family: 'Quicksand', sans-serif;
+  font-weight:bold ;
 }
 
 #background-img {
@@ -68,8 +64,6 @@ body {
   /* background-image: linear-gradient(to top, black, transparent); */
 }
 
-/* .backgroundGradient {
-  /* background-image: linear-gradient(to top, black, #404040, #8C8C8C, #BFBFBF, transparent); */
 
 /* ABOUT ME AND SKILLS SECTION */
 
@@ -77,6 +71,8 @@ body {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: Bold;
 }
 
 #aboutMe {
