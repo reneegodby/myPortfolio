@@ -7,15 +7,18 @@ body {
   background-color: rgb(191, 191, 191, 0.3);
 }
 
-#navbar {
-  background-color: #bfbfbf;
-  
+#navbar .collapse{
+  background-color: rgba(200, 200, 200, 0.3);
 }
 
-#navbarNavAltMarkup {
+#navbar-nav {
   display: flex;
   justify-content: right;
-  
+  list-style: none;
+}
+
+#navbarToggler {
+
 }
 
 #nav0,
@@ -23,16 +26,17 @@ body {
 #nav2,
 #nav3 {
   color: black;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: bold;
+  font-size: large;
 }
 
 #nav0:hover,
 #nav1:hover,
 #nav2:hover,
 #nav3:hover {
-  box-shadow: 3px 3px #404040;
-  
+  /* box-shadow: 1px 1px 1px 1px#404040; */
+  /* background-color: ; */
 }
 
 /* HERO SECTION */
@@ -53,8 +57,8 @@ body {
 #welcomeText {
   color: black;
   font-size: 3vw;
-  font-family: 'Quicksand', sans-serif;
-  font-weight:bold ;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
 }
 
 #background-img {
@@ -64,14 +68,13 @@ body {
   /* background-image: linear-gradient(to top, black, transparent); */
 }
 
-
 /* ABOUT ME AND SKILLS SECTION */
 
 .secTitle {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: Bold;
 }
 
@@ -80,8 +83,8 @@ body {
   height: auto;
   width: 80vw;
   margin-left: 10vw;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
   padding: 40px;
 }
 
@@ -89,14 +92,12 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  
 }
 
 #downloadIcon {
   height: 80px;
   width: 80px;
   object-fit: contain;
-  
 }
 
 #downloadIcon:hover {
@@ -108,7 +109,6 @@ figcaption {
   text-align: center;
 }
 
-
 .break {
   height: 12px;
   border: 0;
@@ -119,8 +119,8 @@ figcaption {
   height: auto;
   width: 80vw;
   margin-left: 10vw;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
   padding: 40px;
 }
 
@@ -164,8 +164,8 @@ figcaption {
   height: auto;
   width: 80vw;
   margin-left: 10vw;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
   padding: 40px;
 }
 
@@ -209,8 +209,8 @@ h3 {
   height: auto;
   width: 80vw;
   margin-left: 10vw;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
   padding: 40px;
 }
 
