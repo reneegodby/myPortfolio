@@ -5,60 +5,93 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(191, 191, 191, 0.3);
-  
 }
 
 .navbar {
   background-color: rgba(200, 200, 200, 0.3);
-  
 }
 
-#nav0, #nav1, #nav2, #nav3 {
+#nav0,
+#nav1,
+#nav2,
+#nav3 {
   color: black;
   font-family: "Quicksand", sans-serif;
   font-weight: bold;
   font-size: large;
 }
 
-#nav0:hover, #nav1:hover, #nav2:hover, #nav3:hover {
-  color: red;
+#nav0:hover {
+  background-color: rgba(19, 78, 111);
 }
 
+#nav1:hover {
+  background-color: rgba(255, 97, 80);
+}
+#nav2:hover {
+  background-color: rgba(26, 192, 198);
+}
+#nav3:hover {
+  background-color: rgba(255, 168, 34);
+}
 
 /* Intro SECTION */
 #container {
   position: relative;
   width: 100%;
   height: 100%;
-
 }
 
 #box {
-    position: absolute;
-    top: 20%;
-    text-align: left;
-    margin-left: 3vw;
-    background-color: rgba(200, 200, 200, 0.3);
-    border-radius: 50px;
-    padding: 20px;
-    
+  position: absolute;
+  top: 20%;
+  text-align: left;
+  margin-left: 3vw;
+  padding: 20px;
 }
-
 
 #title {
   color: black;
   font-family: "Quicksand", sans-serif;
-   
 }
 
-h1 {
-  font-size: 5vw;
+#myName {
+  color: white;
+  font-size: 4vw;
   font-weight: bold;
+  background-color: rgba(19, 78, 111);
+  padding: 10px;
+  text-align: center;
 }
 
-h5 {
+#label1 {
   font-size: 2vw;
   font-weight: bold;
+  background-color: rgba(255, 97, 80);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+  text-align: center;
+  
+}
+
+#label2 {
+  font-size: 2vw;
+  font-weight: bold;
+  background-color: rgba(26, 192, 198);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+#label3 {
+  font-size: 2vw;
+  font-weight: bold;
+  background-color: rgba(255, 168, 34);
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
 
 /* Background Img  */
@@ -96,8 +129,6 @@ h5 {
   font-size: large;
   text-align: center;
   display: block;
- 
-  
 }
 
 #resume {
@@ -126,8 +157,8 @@ figcaption {
 
 .break {
   height: 12px;
-  border: 0;
-  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+  border: 1;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 1);
 }
 
 #mySkills {
@@ -144,8 +175,9 @@ figcaption {
   justify-content: center;
 }
 
-#skillIcons {
-  height: 200px;
+.skillIcons {
+  margin-top: 30px;
+  height: 100px;
   width: 200px;
   object-fit: contain;
 }
@@ -247,7 +279,6 @@ h3 {
 #containerFooter {
   background-color: #bfbfbf;
   text-align: center;
-
 }
 
 #footerText {
@@ -256,5 +287,3 @@ h3 {
   margin: auto;
   font-family: "Quicksand", sans-serif;
 }
-
-
