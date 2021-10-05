@@ -7,37 +7,25 @@ body {
   background-color: rgb(191, 191, 191, 0.3);
 }
 
-#navbar .collapse{
+#navbar {
   background-color: rgba(200, 200, 200, 0.3);
+  
 }
 
-#navbar-nav {
-  display: flex;
-  justify-content: right;
-  list-style: none;
-}
 
-#navbarToggler {
-
-}
-
-#nav0,
-#nav1,
-#nav2,
-#nav3 {
+#nav0, #nav1, #nav2, #nav3 {
   color: black;
   font-family: "Quicksand", sans-serif;
   font-weight: bold;
   font-size: large;
 }
 
-#nav0:hover,
-#nav1:hover,
-#nav2:hover,
-#nav3:hover {
-  /* box-shadow: 1px 1px 1px 1px#404040; */
-  /* background-color: ; */
+
+
+#nav0:hover, #nav1:hover, #nav2:hover, #nav3:hover {
+  color: red;
 }
+
 
 /* HERO SECTION */
 #hero {
@@ -86,6 +74,16 @@ body {
   margin-top: 5vh;
   margin-bottom: 5vh;
   padding: 40px;
+  margin: auto;
+}
+
+#aboutMeText {
+  font-family: "Quicksand", sans-serif;
+  font-size: large;
+  text-align: center;
+  display: block;
+ 
+  
 }
 
 #resume {
@@ -95,9 +93,10 @@ body {
 }
 
 #downloadIcon {
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   object-fit: contain;
+  margin-left: 8px;
 }
 
 #downloadIcon:hover {
@@ -189,12 +188,12 @@ figcaption {
   object-fit: cover;
   border-radius: 20px;
   border: 2px solid #8c8c8c;
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 .images:hover {
   /* box-shadow: 0 0 5px 5px #404040; */
-  opacity: 100;
+  /* opacity: 100; */
 }
 
 h3 {
