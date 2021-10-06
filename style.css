@@ -181,7 +181,6 @@ body {
   display: flex;
   justify-content: center;
   margin-left: 9px;
-  
 }
 
 #downloadIcon:hover {
@@ -260,7 +259,28 @@ hr {
   padding: 40px;
   margin-top: 5vh;
   margin-bottom: 5vh;
+}
+
+.carousel-item {
+  height: 400px;
+  width: 600px;
   
+}
+
+.d-block {
+  object-fit: cover;
+  border-radius: 20px;
+  height: 400px;
+  width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.carousel-caption{
+  font-family: "Quicksand", sans-serif;
+  background-color: rgba(19, 78, 111, 0.7);
+  border-radius: 20px;
 }
 
 /* .thumbnails {
@@ -287,8 +307,8 @@ hr {
 /* } */
 
 /* .images:hover { */
-  /* box-shadow: 0 0 5px 5px #404040; */
-  /* opacity: 100; */
+/* box-shadow: 0 0 5px 5px #404040; */
+/* opacity: 100; */
 /* } */
 
 /* h3 {
