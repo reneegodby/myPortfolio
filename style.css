@@ -268,8 +268,7 @@ hr {
 }
 
 .d-block {
-  object-fit: cover;
-  border-radius: 20px;
+  object-fit: scale-down;
   height: 400px;
   width: 600px;
   margin: auto;
@@ -277,10 +276,14 @@ hr {
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .carousel-caption{
   font-family: "Quicksand", sans-serif;
-  background-color: rgba(19, 78, 111, 0.7);
+  background-color: rgb(191, 191, 191, 0.7);
   border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* .thumbnails {
