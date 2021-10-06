@@ -18,21 +18,25 @@ body {
   color: black;
   font-family: "Quicksand", sans-serif;
   font-weight: bold;
-  font-size: large;
+  font-size: xx-large;
 }
 
 #nav0:hover {
   background-color: rgba(19, 78, 111);
+  color: white;
 }
 
 #nav1:hover {
   background-color: rgba(255, 97, 80);
+  color: white;
 }
 #nav2:hover {
   background-color: rgba(26, 192, 198);
+  color: white;
 }
 #nav3:hover {
   background-color: rgba(255, 168, 34);
+  color: white;
 }
 
 /* Intro SECTION */
@@ -40,14 +44,18 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: left;
 }
 
 #box {
   position: absolute;
-  top: 20%;
+  top: 10%;
   text-align: left;
   margin-left: 3vw;
   padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 #title {
@@ -71,9 +79,7 @@ body {
   color: white;
   padding-top: 10px;
   padding-bottom: 10px;
-  
   text-align: center;
-  
 }
 
 #label2 {
@@ -100,7 +106,6 @@ body {
   width: auto;
   height: auto;
   background-size: cover;
-  /* background-image: linear-gradient(to top, black, transparent); */
 }
 
 /* ABOUT ME AND SKILLS SECTION */
@@ -114,7 +119,6 @@ body {
 }
 
 #aboutMe {
-  /* border: 2px solid #404040; */
   height: auto;
   width: 80vw;
   margin-left: 10vw;
@@ -146,7 +150,7 @@ body {
 }
 
 #downloadIcon:hover {
-  box-shadow: 0 0 5px 5px #404040;
+  box-shadow: 0 0 2px 2px #404040;
   border-radius: 5px;
 }
 
@@ -155,10 +159,35 @@ figcaption {
   font-family: "Quicksand", sans-serif;
 }
 
-.break {
-  height: 12px;
-  border: 1;
-  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 1);
+/* Github and linked in icons */
+
+.icons {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin: 10px;
+
+}
+
+.iconLinkedIn:hover {
+  box-shadow: 0 0 2px 2px #404040;
+  border-radius: 3px;
+}
+
+.iconGitHub:hover {
+  box-shadow: 0 0 2px 2px #404040;
+  border-radius: 10px;
+}
+
+.iconLinkedIn {
+  margin-right: 20px;
+  width: ;
+  height: auto;
+  
+}
+
+hr {
+  border: 2px solid #404040;
 }
 
 #mySkills {
@@ -173,6 +202,7 @@ figcaption {
 #mySkillIcons {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .skillIcons {
@@ -180,28 +210,7 @@ figcaption {
   height: 100px;
   width: 200px;
   object-fit: contain;
-}
-
-/* Github and linked in icons */
-.icons {
-  display: flex;
-  justify-content: center;
-  padding: 5px;
-  margin: 10px;
-}
-
-.iconLinkedIn:hover {
-  box-shadow: 0 0 5px 5px #404040;
-  border-radius: 3px;
-}
-
-.iconGitHub:hover {
-  box-shadow: 0 0 5px 5px #404040;
-  border-radius: 10px;
-}
-
-.iconLinkedIn {
-  margin-right: 20px;
+  
 }
 
 /* MY PROJECTS SECTION */
