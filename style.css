@@ -111,21 +111,24 @@ body {
 /* ABOUT ME AND SKILLS SECTION */
 
 .secTitle {
+  display: flex;
   text-transform: uppercase;
-  text-align: center;
+  justify-content: center;
   margin-bottom: 30px;
   font-family: "Quicksand", sans-serif;
   font-weight: Bold;
 }
 
 #aboutMe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   height: auto;
-  width: 80vw;
-  margin-left: 10vw;
+  width: 40vw;
+  margin: auto;
   margin-top: 5vh;
   margin-bottom: 5vh;
   padding: 40px;
-  margin: auto;
 }
 
 #aboutMeText {
@@ -138,15 +141,18 @@ body {
 #resume {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   font-family: "Quicksand", sans-serif;
 }
 
 #downloadIcon {
   height: 60px;
   width: 60px;
-  object-fit: contain;
-  margin-left: 8px;
+  display: flex;
+  justify-content: center;
+ margin-left: 9px;
+  /* margin-left: 8px; */
 }
 
 #downloadIcon:hover {
@@ -162,28 +168,28 @@ figcaption {
 /* Github and linked in icons */
 
 .icons {
-  display: flex;
-  justify-content: center;
-  padding: 5px;
-  margin: 10px;
-
+  display: inline-flex;
+  /* flex-direction: row; */
+  justify-content: space-evenly;
+  gap: 20px;
 }
 
-.iconLinkedIn:hover {
+#linkedinIcon {
+  height: 60px;
+  width: 60px;
+}
+
+#githubIcon {
+  height: 60px;
+  width: 60px;
+}
+
+#githubIcon:hover,
+#linkedinIcon:hover {
   box-shadow: 0 0 2px 2px #404040;
   border-radius: 3px;
-}
-
-.iconGitHub:hover {
-  box-shadow: 0 0 2px 2px #404040;
-  border-radius: 10px;
-}
-
-.iconLinkedIn {
-  margin-right: 20px;
-  width: ;
-  height: auto;
-  
+  /* padding: 5px;
+  margin: auto; */
 }
 
 hr {
@@ -191,6 +197,9 @@ hr {
 }
 
 #mySkills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   height: auto;
   width: 80vw;
   margin-left: 10vw;
@@ -210,13 +219,14 @@ hr {
   height: 100px;
   width: 200px;
   object-fit: contain;
-  
 }
 
 /* MY PROJECTS SECTION */
 
 #myProjects {
-  /* border: 2px solid #404040; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   height: auto;
   width: 80vw;
   margin-left: 10vw;
@@ -279,15 +289,16 @@ h3 {
 }
 
 #formButton:hover {
-  box-shadow: 0 0 5px 5px #404040;
+  background-color: rgba(255, 97, 80);
   border: none;
 }
 
 /* FOOTER SECTION */
 
 #containerFooter {
-  background-color: #bfbfbf;
-  text-align: center;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
 }
 
 #footerText {
