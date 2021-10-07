@@ -294,9 +294,15 @@ hr {
   margin-bottom: 5vh;
 }
 
+#carousel-size{
+  width: 40vw;
+  height: auto;
+
+}
+
 .carousel-item {
   /* height: 400px; */
-  width: 40vw;
+  /* width: 40vw; */
 }
 
 .d-block {
