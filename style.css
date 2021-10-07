@@ -141,6 +141,7 @@ body {
 
 .secTitle {
   display: flex;
+  flex-wrap: wrap;
   text-transform: uppercase;
   justify-content: center;
   margin-bottom: 30px;
@@ -262,6 +263,9 @@ hr {
 }
 
 .carousel-item {
+  
+  
+  
   height: 400px;
   width: 600px;
   
@@ -279,11 +283,21 @@ hr {
 
 .carousel-caption{
   font-family: "Quicksand", sans-serif;
-  background-color: rgb(191, 191, 191, 0.7);
+  background-color: rgb(255, 255, 255, 0.8);
+  color: black;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin: auto
+}
+
+.carousel-control-prev-icon{
+  background-color: rgb(255, 255, 255, 0.2);
+}
+
+.carousel-control-next-icon{
+  background-color: rgb(255, 255, 255, 0.2);
 }
 
 /* .thumbnails {
