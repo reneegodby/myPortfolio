@@ -263,12 +263,8 @@ hr {
 }
 
 .carousel-item {
-  
-  
-  
   height: 400px;
   width: 600px;
-  
 }
 
 .d-block {
@@ -281,7 +277,7 @@ hr {
   flex-wrap: wrap;
 }
 
-.carousel-caption{
+.carousel-caption {
   font-family: "Quicksand", sans-serif;
   background-color: rgb(255, 255, 255, 0.8);
   color: black;
@@ -289,14 +285,14 @@ hr {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: auto
+  margin: auto;
 }
 
-.carousel-control-prev-icon{
+.carousel-control-prev-icon {
   background-color: rgb(255, 255, 255, 0.2);
 }
 
-.carousel-control-next-icon{
+.carousel-control-next-icon {
   background-color: rgb(255, 255, 255, 0.2);
 }
 
@@ -341,7 +337,7 @@ hr {
   flex-wrap: wrap;
   justify-content: center;
   height: auto;
-  width: 40vw;
+  width: 50vw;
   margin: auto;
   margin-top: 5vh;
   margin-bottom: 5vh;
