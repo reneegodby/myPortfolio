@@ -263,8 +263,8 @@ hr {
 }
 
 .carousel-item {
-  height: 400px;
-  width: 600px;
+  /* height: 400px; */
+  width: 40vw;
 }
 
 .d-block {
