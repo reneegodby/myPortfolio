@@ -8,8 +8,11 @@ body {
 }
 
 .navbar {
-  background-color: rgba(200, 200, 200, 0.3);
+  background-color: rgba(200, 200, 200, 0.5);
   display: flex;
+  padding-top: 0 !important ;
+  padding-bottom: 0 ;
+  
 }
 
 #nav0,
@@ -88,7 +91,7 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-  animation: slide-in-top 2s forwards;
+  animation: slide-in-top 1.5s forwards;
 }
 
 #label2 {
@@ -98,7 +101,7 @@ body {
   color: white;
   padding: 10px;
   text-align: center;
-  animation: slide-in-top 4s forwards;
+  animation: slide-in-top 2s forwards;
 }
 
 #label3 {
@@ -108,7 +111,7 @@ body {
   color: white;
   padding: 10px;
   text-align: center;
-  animation: slide-in-top 6s forwards;
+  animation: slide-in-top 2.5s forwards;
 }
 
 @-webkit-keyframes slide-in-top {
